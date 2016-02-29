@@ -4,6 +4,7 @@ import com.epam.gifts.comparator.SugarPercentageComparator;
 import com.epam.gifts.comparator.WeightComparator;
 import com.epam.gifts.creator.Creator;
 import com.epam.gifts.entity.Sweets;
+import com.epam.gifts.exception.IncorrectParameterException;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.apache.log4j.xml.DOMConfigurator;
@@ -47,7 +48,11 @@ public class Gift {
     public void fillGift() throws FileNotFoundException {
         Creator creator = new Creator();
         while (creator.getReadFileService().hasNextData()) {
-            this.addElement(creator.createSweets());
+            try {
+                this.addElement(creator.createSweets());
+            } catch (IncorrectParameterException e) {
+                logger.error("Incorrect input data. Object didn't created.");
+            }
         }
         creator.closeFile();
     }

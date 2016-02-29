@@ -32,16 +32,12 @@ public class Creator {
         dataChecker = new DataChecker();
     }
 
-    public Sweets createSweets() {
+    public Sweets createSweets() throws IncorrectParameterException{
         String lineFromFile = readFileService.takeLineFromFile();
         int typeSweets = dataChecker.checkSweets(lineFromFile);
-        Sweets sweets = null;
+        Sweets sweets;
         if (typeSweets == -1) {
-            try {
-                throw new IncorrectParameterException("A mistake in data from file");
-            } catch (IncorrectParameterException e) {
-                logger.warn("Incorrect input data");
-            }
+            throw new IncorrectParameterException("A mistake in data from file");
         } else {
             switch (typeSweets) {
                 case 0:
@@ -57,11 +53,7 @@ public class Creator {
                     sweets = createChocolate(lineFromFile);
                     break;
                 default:
-                    try {
-                        throw new IncorrectParameterException("A mistake in data from file");
-                    } catch (IncorrectParameterException e) {
-                        logger.warn("Incorrect input data");
-                    }
+                    throw new IncorrectParameterException("A mistake in data from file");
             }
         }
         return sweets;

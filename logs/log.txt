@@ -1,34 +1,28 @@
-28.02.2016 14:23:43 [main] INFO  com.epam.gifts.main.Main - Start creating gift
-28.02.2016 14:23:43 [main] INFO  com.epam.gifts.gift.Gift - Object ChocolateCandy [weight = 10, sugarPercentage = 60, filled = true, glaze = false] was added to gift
-28.02.2016 14:23:43 [main] INFO  com.epam.gifts.gift.Gift - Object Lollipop [weight = 15, sugarPercentage = 70, filled = false, taste = LEMON] was added to gift
-28.02.2016 14:23:43 [main] WARN  com.epam.gifts.creator.Creator - Incorrect input data
-28.02.2016 14:23:43 [main] ERROR com.epam.gifts.gift.Gift - Object didn't created
-28.02.2016 14:23:43 [main] INFO  com.epam.gifts.gift.Gift - Object Zephyr [weight = 20, sugarPercentage = 40, glaze = true, taste = APPLE] was added to gift
-28.02.2016 14:23:43 [main] INFO  com.epam.gifts.gift.Gift - Object Chocolate [weight = 100, sugarPercentage = 30, cocoaPercentage = 60, filled = false] was added to gift
-28.02.2016 14:23:43 [main] WARN  com.epam.gifts.creator.Creator - Incorrect input data
-28.02.2016 14:23:43 [main] ERROR com.epam.gifts.gift.Gift - Object didn't created
-28.02.2016 14:23:43 [main] INFO  com.epam.gifts.gift.Gift - Object ChocolateCandy [weight = 20, sugarPercentage = 50, filled = false, glaze = true] was added to gift
-28.02.2016 14:23:43 [main] INFO  com.epam.gifts.gift.Gift - Object Lollipop [weight = 25, sugarPercentage = 55, filled = true, taste = NUT] was added to gift
-28.02.2016 14:23:43 [main] WARN  com.epam.gifts.creator.Creator - Incorrect input data
-28.02.2016 14:23:43 [main] ERROR com.epam.gifts.gift.Gift - Object didn't created
-28.02.2016 14:23:43 [main] INFO  com.epam.gifts.gift.Gift - Object Zephyr [weight = 15, sugarPercentage = 20, glaze = true, taste = VANILLA] was added to gift
-28.02.2016 14:23:43 [main] INFO  com.epam.gifts.gift.Gift - Object Chocolate [weight = 200, sugarPercentage = 30, cocoaPercentage = 50, filled = true] was added to gift
-28.02.2016 14:23:43 [main] INFO  com.epam.gifts.gift.Gift - Object ChocolateCandy [weight = 20, sugarPercentage = 75, filled = true, glaze = true] was added to gift
-28.02.2016 14:23:43 [main] INFO  com.epam.gifts.gift.Gift - Object Lollipop [weight = 25, sugarPercentage = 52, filled = false, taste = COCONUT] was added to gift
-28.02.2016 14:23:43 [main] INFO  com.epam.gifts.gift.Gift - Object Zephyr [weight = 10, sugarPercentage = 22, glaze = false, taste = APPLE] was added to gift
-28.02.2016 14:23:43 [main] WARN  com.epam.gifts.creator.Creator - Incorrect input data
-28.02.2016 14:23:43 [main] ERROR com.epam.gifts.gift.Gift - Object didn't created
-28.02.2016 14:23:43 [main] INFO  com.epam.gifts.gift.Gift - Object ChocolateCandy [weight = 10, sugarPercentage = 60, filled = true, glaze = false] was added to gift
-28.02.2016 14:23:43 [main] INFO  com.epam.gifts.gift.Gift - Object Lollipop [weight = 15, sugarPercentage = 70, filled = true, taste = COCONUT] was added to gift
-28.02.2016 14:23:43 [main] WARN  com.epam.gifts.creator.Creator - Incorrect input data
-28.02.2016 14:23:43 [main] ERROR com.epam.gifts.gift.Gift - Object didn't created
-28.02.2016 14:23:43 [main] INFO  com.epam.gifts.gift.Gift - Object Zephyr [weight = 23, sugarPercentage = 50, glaze = false, taste = APPLE] was added to gift
-28.02.2016 14:23:43 [main] INFO  com.epam.gifts.gift.Gift - Object Chocolate [weight = 50, sugarPercentage = 60, cocoaPercentage = 45, filled = true] was added to gift
-28.02.2016 14:23:43 [main] INFO  com.epam.gifts.gift.Gift - Object ChocolateCandy [weight = 10, sugarPercentage = 60, filled = true, glaze = false] was added to gift
-28.02.2016 14:23:43 [main] INFO  com.epam.gifts.gift.Gift - Object Lollipop [weight = 15, sugarPercentage = 70, filled = false, taste = MINT] was added to gift
-28.02.2016 14:23:43 [main] WARN  com.epam.gifts.creator.Creator - Incorrect input data
-28.02.2016 14:23:43 [main] ERROR com.epam.gifts.gift.Gift - Object didn't created
-28.02.2016 14:23:43 [main] INFO  com.epam.gifts.gift.Gift - Object Zephyr [weight = 20, sugarPercentage = 40, glaze = true, taste = APPLE] was added to gift
-28.02.2016 14:23:43 [main] INFO  com.epam.gifts.gift.Gift - Object Chocolate [weight = 100, sugarPercentage = 30, cocoaPercentage = 60, filled = false] was added to gift
-28.02.2016 14:23:43 [main] INFO  com.epam.gifts.gift.Gift - Sorting sweets by it's weight
-28.02.2016 14:23:43 [main] INFO  com.epam.gifts.gift.Gift - Sorting sweets by sugar percentage
+29.02.2016 22:35:01 [main] INFO  com.epam.gifts.main.Main - Start creating gift
+29.02.2016 22:35:01 [main] INFO  com.epam.gifts.gift.Gift - Object ChocolateCandy [weight = 10, sugarPercentage = 60, filled = true, glaze = false] was added to gift
+29.02.2016 22:35:01 [main] INFO  com.epam.gifts.gift.Gift - Object Lollipop [weight = 15, sugarPercentage = 70, filled = false, taste = LEMON] was added to gift
+29.02.2016 22:35:01 [main] ERROR com.epam.gifts.gift.Gift - Incorrect input data. Object didn't created.
+29.02.2016 22:35:01 [main] INFO  com.epam.gifts.gift.Gift - Object Zephyr [weight = 20, sugarPercentage = 40, glaze = true, taste = APPLE] was added to gift
+29.02.2016 22:35:01 [main] INFO  com.epam.gifts.gift.Gift - Object Chocolate [weight = 100, sugarPercentage = 30, cocoaPercentage = 60, filled = false] was added to gift
+29.02.2016 22:35:01 [main] ERROR com.epam.gifts.gift.Gift - Incorrect input data. Object didn't created.
+29.02.2016 22:35:01 [main] INFO  com.epam.gifts.gift.Gift - Object ChocolateCandy [weight = 20, sugarPercentage = 50, filled = false, glaze = true] was added to gift
+29.02.2016 22:35:01 [main] INFO  com.epam.gifts.gift.Gift - Object Lollipop [weight = 25, sugarPercentage = 55, filled = true, taste = NUT] was added to gift
+29.02.2016 22:35:01 [main] ERROR com.epam.gifts.gift.Gift - Incorrect input data. Object didn't created.
+29.02.2016 22:35:01 [main] INFO  com.epam.gifts.gift.Gift - Object Zephyr [weight = 15, sugarPercentage = 20, glaze = true, taste = VANILLA] was added to gift
+29.02.2016 22:35:01 [main] INFO  com.epam.gifts.gift.Gift - Object Chocolate [weight = 200, sugarPercentage = 30, cocoaPercentage = 50, filled = true] was added to gift
+29.02.2016 22:35:01 [main] INFO  com.epam.gifts.gift.Gift - Object ChocolateCandy [weight = 20, sugarPercentage = 75, filled = true, glaze = true] was added to gift
+29.02.2016 22:35:01 [main] INFO  com.epam.gifts.gift.Gift - Object Lollipop [weight = 25, sugarPercentage = 52, filled = false, taste = COCONUT] was added to gift
+29.02.2016 22:35:01 [main] INFO  com.epam.gifts.gift.Gift - Object Zephyr [weight = 10, sugarPercentage = 22, glaze = false, taste = APPLE] was added to gift
+29.02.2016 22:35:01 [main] ERROR com.epam.gifts.gift.Gift - Incorrect input data. Object didn't created.
+29.02.2016 22:35:01 [main] INFO  com.epam.gifts.gift.Gift - Object ChocolateCandy [weight = 10, sugarPercentage = 60, filled = true, glaze = false] was added to gift
+29.02.2016 22:35:01 [main] INFO  com.epam.gifts.gift.Gift - Object Lollipop [weight = 15, sugarPercentage = 70, filled = true, taste = COCONUT] was added to gift
+29.02.2016 22:35:01 [main] ERROR com.epam.gifts.gift.Gift - Incorrect input data. Object didn't created.
+29.02.2016 22:35:01 [main] INFO  com.epam.gifts.gift.Gift - Object Zephyr [weight = 23, sugarPercentage = 50, glaze = false, taste = APPLE] was added to gift
+29.02.2016 22:35:01 [main] INFO  com.epam.gifts.gift.Gift - Object Chocolate [weight = 50, sugarPercentage = 60, cocoaPercentage = 45, filled = true] was added to gift
+29.02.2016 22:35:01 [main] INFO  com.epam.gifts.gift.Gift - Object ChocolateCandy [weight = 10, sugarPercentage = 60, filled = true, glaze = false] was added to gift
+29.02.2016 22:35:01 [main] INFO  com.epam.gifts.gift.Gift - Object Lollipop [weight = 15, sugarPercentage = 70, filled = false, taste = MINT] was added to gift
+29.02.2016 22:35:01 [main] ERROR com.epam.gifts.gift.Gift - Incorrect input data. Object didn't created.
+29.02.2016 22:35:01 [main] INFO  com.epam.gifts.gift.Gift - Object Zephyr [weight = 20, sugarPercentage = 40, glaze = true, taste = APPLE] was added to gift
+29.02.2016 22:35:01 [main] INFO  com.epam.gifts.gift.Gift - Object Chocolate [weight = 100, sugarPercentage = 30, cocoaPercentage = 60, filled = false] was added to gift
+29.02.2016 22:35:01 [main] INFO  com.epam.gifts.gift.Gift - Sorting sweets by it's weight
+29.02.2016 22:35:01 [main] INFO  com.epam.gifts.gift.Gift - Sorting sweets by sugar percentage

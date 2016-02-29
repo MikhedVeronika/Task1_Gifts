@@ -32,15 +32,18 @@ public class Main {
         rfc.writeAllSweetsInFile(gift);
 
         gift.sortSweetsByWeight();
+        rfc.printString("Sorting all sweets by weight");
         rfc.printAllSweets(gift);
         rfc.writeAllSweetsInFile(gift);
 
         gift.sortSweetsBySugarPercentage();
+        rfc.printString("Sorting all sweets by sugar percentage");
         rfc.printAllSweets(gift);
         rfc.writeAllSweetsInFile(gift);
 
         int spMin = 55;
         int spMax = 70;
+        rfc.printString("Sweets with sugar percentage from "+spMin+" to "+spMax);
         rfc.printListSweets(gift.takeSweetsBySugar(spMin, spMax), spMin, spMax);
         rfc.writeListSweetsInFile(gift.takeSweetsBySugar(spMin, spMax), spMin, spMax);
 

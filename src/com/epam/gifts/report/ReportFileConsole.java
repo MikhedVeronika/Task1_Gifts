@@ -2,6 +2,7 @@ package com.epam.gifts.report;
 
 import com.epam.gifts.entity.Sweets;
 import com.epam.gifts.gift.Gift;
+import com.sun.org.apache.xpath.internal.SourceTree;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.apache.log4j.xml.DOMConfigurator;
@@ -73,6 +74,15 @@ public class ReportFileConsole {
             fw.write("Total weight of gift: " + gift.getTotalWeight() + "\r\n");
         } catch (IOException e) {
             logger.error("Can not write data to file");
+        }
+    }
+
+    public void printString (String str) {
+        System.out.println(str);
+        try {
+            fw.write(str+"\r\n");
+        }catch (IOException e) {
+            logger.error("Can not write string to file");
         }
     }
 
