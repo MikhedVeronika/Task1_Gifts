@@ -18,12 +18,12 @@ public class ReportFileConsole {
     }
 
     static Logger logger = Logger.getLogger(Gift.class);
-
+    private String filepath = "output/output.txt";
     private FileWriter fw;
 
     public ReportFileConsole() {
         try {
-            fw = new FileWriter("res/output.txt");
+            fw = new FileWriter(filepath);
         } catch (IOException e) {
             logger.error("Can not open file 'output.txt' to write");
         }

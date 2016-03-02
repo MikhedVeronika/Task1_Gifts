@@ -14,7 +14,7 @@ public class ReadFileService {
     static Logger logger = Logger.getLogger(ReadFileService.class);
 
     private BufferedReader bufferedReader;
-    private String filepath = "res/sweets.txt";
+    private String filepath = "input/sweets.txt";
 
     public ReadFileService() throws FileNotFoundException{
         bufferedReader = new BufferedReader(new FileReader(filepath));
@@ -42,7 +42,7 @@ public class ReadFileService {
             bufferedReader.close();
         }
         catch (IOException e) {
-
+            logger.error("Can not close file");
         }
     }
 

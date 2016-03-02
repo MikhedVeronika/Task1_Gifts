@@ -61,7 +61,6 @@ Lollipop [weight = 15, sugarPercentage = 70, filled = true, taste = COCONUT]
 Lollipop [weight = 15, sugarPercentage = 70, filled = false, taste = MINT]
 ChocolateCandy [weight = 20, sugarPercentage = 75, filled = true, glaze = true]
 Sweets with sugar percentage from 55 to 70
-Sweets with sugar percentage from 55 to 70
 Lollipop [weight = 25, sugarPercentage = 55, filled = true, taste = NUT]
 ChocolateCandy [weight = 10, sugarPercentage = 60, filled = true, glaze = false]
 ChocolateCandy [weight = 10, sugarPercentage = 60, filled = true, glaze = false]

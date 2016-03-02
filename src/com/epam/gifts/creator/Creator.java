@@ -6,7 +6,7 @@ import com.epam.gifts.entity.Chocolate;
 import com.epam.gifts.entity.Sweets;
 import com.epam.gifts.exception.IncorrectParameterException;
 import com.epam.gifts.service.ReadFileService;
-import com.epam.gifts.taste.Taste;
+import com.epam.gifts.enums.Taste;
 import com.epam.gifts.validator.DataChecker;
 import com.epam.gifts.entity.Zephyr;
 import org.apache.log4j.LogManager;

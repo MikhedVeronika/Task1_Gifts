@@ -43,7 +43,6 @@ public class Main {
 
         int spMin = 55;
         int spMax = 70;
-        rfc.printString("Sweets with sugar percentage from "+spMin+" to "+spMax);
         rfc.printListSweets(gift.takeSweetsBySugar(spMin, spMax), spMin, spMax);
         rfc.writeListSweetsInFile(gift.takeSweetsBySugar(spMin, spMax), spMin, spMax);
 

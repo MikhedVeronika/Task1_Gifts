@@ -1,7 +1,6 @@
 package com.epam.gifts.entity;
 
-import com.epam.gifts.entity.Candy;
-import com.epam.gifts.taste.Taste;
+import com.epam.gifts.enums.Taste;
 
 public class Lollipop extends Candy {
 

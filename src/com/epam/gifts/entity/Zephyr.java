@@ -1,7 +1,6 @@
 package com.epam.gifts.entity;
 
-import com.epam.gifts.entity.Sweets;
-import com.epam.gifts.taste.Taste;
+import com.epam.gifts.enums.Taste;
 
 public class Zephyr extends Sweets {
 
